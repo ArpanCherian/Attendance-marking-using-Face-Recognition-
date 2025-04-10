@@ -23,7 +23,7 @@ def mark_attendance(name):
     time = timestamp.strftime('%H:%M:%S')
     
     # Create the directory if it doesn't exist
-    save_path = r"C:\Users\ARPAN JACOB\Documents\MyCode\Python program\Mini Project\attendance_records"
+    save_path = r"YOUR ATTENDANCE RECORD PATH"
     os.makedirs(save_path, exist_ok=True)
     
     # Create full path for the Excel file
@@ -83,7 +83,7 @@ def update_encodings(folder_path, encode_file_path):
     return encode_list_known, student_ids
 
 # Step 1: Update encodings with new students
-folder_path = r'C:\Users\ARPAN JACOB\Documents\MyCode\Python program\Mini Project\Images'  # Folder containing images
+folder_path = r'YOUR IMAGE FOLDER PATH'  # Folder containing images
 encode_file_path = "EncodeFile.p"
 encode_list_known, student_ids = update_encodings(folder_path, encode_file_path)
 
