@@ -1,10 +1,10 @@
-🧠 Face Recognition Attendance System
+# 🧠 Face Recognition Attendance System
 
 This project is a **real-time face recognition-based attendance system** developed using Python, OpenCV, and the `face_recognition` library. It captures faces via webcam, recognizes registered individuals, and automatically logs attendance data into Excel files with timestamps.
 
 ---
 
-📌 Features
+## 📌 Features
 
 - 🎥 Real-time face detection and recognition via webcam  
 - 📝 Automatically logs attendance with date & time  
@@ -14,7 +14,7 @@ This project is a **real-time face recognition-based attendance system** develop
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3.x  
 - OpenCV  
@@ -25,7 +25,7 @@ This project is a **real-time face recognition-based attendance system** develop
 
 ---
 
-🗂️ Folder Structure
+## 🗂️ Folder Structure
 
 ```
 face-recognition-attendance/
@@ -41,7 +41,7 @@ face-recognition-attendance/
 
 ---
 
-🧑‍💻 How to Run (Cloned Repository)
+## 🧑‍💻 How to Run (Cloned Repository)
 
 1. **Clone the repository:**
 ```bash
@@ -65,7 +65,9 @@ python main.py
 ```
 > Press `q` to exit the webcam window.
 
-📦 How to Run Without Cloning
+---
+
+## 📦 How to Run Without Cloning
 
 1. **Download as ZIP:**
    - Click on the green **“Code”** button on the top right of the repository
@@ -81,7 +83,9 @@ pip install opencv-python face_recognition numpy pandas openpyxl
    - Add images to `Images/` folder
    - Run `main.py`
 
-📝 Attendance Format
+---
+
+## 📝 Attendance Format
 
 Attendance is saved to Excel files in the `attendance_records/` folder.
 
@@ -95,14 +99,15 @@ Attendance is saved to Excel files in the `attendance_records/` folder.
 
 ---
 
-⚠️ Notes
+## ⚠️ Notes
 
 - Make sure each image contains only **one clear face**.
 - Encoding and detection are sensitive to lighting and face orientation.
 - This is a **local system** — no data is uploaded to the cloud.
 
+---
 
-🔄 Future Improvements (Ideas)
+## 🔄 Future Improvements (Ideas)
 
 - MongoDB integration for long-term logging  
 - GUI or web-based dashboard  
@@ -110,8 +115,7 @@ Attendance is saved to Excel files in the `attendance_records/` folder.
 - Email or SMS notifications  
 
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 - [face_recognition](https://github.com/ageitgey/face_recognition) – Python wrapper around dlib for face recognition.  
 - OpenCV – Computer vision library for Python.
-
